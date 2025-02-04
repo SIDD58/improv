@@ -1,0 +1,45 @@
+/* Navbar.css */
+
+  /* navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(51, 51, 51, 0.7); /* Semi-transparent background */
+    position: relative; /* Make sure the navbar stays on top */
+    z-index: 1; /* Keeps the navbar on top of the image */
+    color: white;
+  }
+  
+  .navbar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../../public/hero.jpeg'); /* Your image path */
+    background-size: cover; /* Ensures the image covers the navbar */
+    background-position: center;
+    z-index: -1; /* Places the image behind the navbar */
+  }
+  
+  .navLinks {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
