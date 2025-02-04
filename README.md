@@ -29,7 +29,7 @@ I have written a series of Medium blogs explaining how to:
 - Configure **Google Web App** for the mailing list functionality.
 - Set up **Oauth Consent screen** in the **Google Cloud Console**.
 
-- [Blog 1: Google Web App Setup](#)
+- [Blog 1: Google Web App Setup](https://siddharthsamber94.medium.com/setting-up-google-oauth-consent-screen-for-develop-be0b06fbd874)
 - [Blog 2: Google Sign-In Setup in Google Cloud Console](#)
 
 ## Installation
